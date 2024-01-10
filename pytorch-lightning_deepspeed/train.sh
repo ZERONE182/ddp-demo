@@ -1,0 +1,1 @@
+NODE_RANK=$1 MASTER_ADDR=172.20.253.33 MASTER_PORT=10086 python demo.py --strategy deepspeed_stage_2 --precision 16 --accelerator 'gpu' --devices 2
